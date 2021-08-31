@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"BOOK QUOTES"</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="PicsArt_08-28-07.43.31 (1).png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="bi bi-x-circle-fill" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="">QUOTES</a></li>
+					<li><a href="">REVIEWS</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+<div class="text-box">
+	<h1>Welcome to Book Quotes</h1>
+	<p> Everything about the books world. Here you can learn about different Quotes,<br> Books, Reading habits and many more.</p>
+	<a href="" class="button">Know More</a>
+</div>
+
+
+	</section>
+	<section class="readinghabit">
+		<!---------Reading habits --------->
+		<h1>Reading Habits</h1>
+		<p>Here are two action steps to help you become more positive and get the results you want.</p>
+		<p><b>STEP 1:</b> Everyday,Read some positive, uplifting literature. Find 15-30 minutes in the morning to do this - and its also a good idea to do some reading right before bed. There are litrally thousands of motivational books and articles to choose from(we will make articles and book recommendations section further in this site). Read whatever speaks to you.</p>
+		<p><b>Step 2:</b> Everyday listen to motivational audio programs. When you read these messages over and over they become part of you - and you begin to implement them to improve your life.</p>
+	</section>
+
+		<!---------quotes --------->
+	<section class="quotes">
+		<h1><span>&#8220; Quotes &#8221;</span></h1>
+		<div class="row">
+			<div class="quotes-col">
+				<h3>inspirational Quotes</h3>
+				<img src="inspirational quotes.jpg">
+			</div>
+			<div class="quotes-col">
+				<h3>Life Quotes</h3>
+				<img src="life quotes.jpg">
+			</div>
+			<div class="quotes-col">
+				<h3>Love Quotes</h3>
+				<img src="love quotes.jpg">
+			</div>
+			</div>
+		</div>
+		
+	</section>
+	<!---------call to action --------->
+	<section class="cta">
+		<h1>Enroll To Join Our Team Of Book Readers <br>To Share Your Experience To Us</h1>
+		<a href="contact.html" class="button">CONTACT US</a>
+
+
+	</section>
+	<!---------footer --------->
+		<section class="footer">
+			<h4>About This Page</h4>
+			<p>This site is about what we learn from books, Inspired quotes from the books we read, providing a better idea about the books <br> with our Reviews and last but not the least to inspire and encourage the popular quotes that <br> you can acheive success in your life.</p>
+			<div class="icons">
+			<a href="https://www.facebook.com/profile.php?id=100072160841375" class="bi bi-facebook"></a>
+			<a href="https://twitter.com/_Bo_ok_Quotes_" class="bi bi-twitter"></a>
+			<a href="https://www.instagram.com/_bo_ok_quo_tes_/?hl=en" class="bi bi-instagram"></a>
+		</div>
+		</section>
+	<!-------- Java-script --------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+	
+</body>
+</html>
